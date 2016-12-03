@@ -92,3 +92,10 @@ Received data and created the real-time visualization by setting up a web servic
 
 **Hossein and Wendy**
 Worked on the research and documentation, and found many papers usable for this project.
+
+## Other information:
+*This repository was made by specific group members and uploaded to a temporary environment. This temporary environment has been manually transferred to a a more permanent Hack the Brain Github account. If any of the former team members wish to administer this repository and manage the master branch, then they can contact the current administrator of the repository to gain the proper acces privileges to do so.*
+
+## Video on Project MMM:
+[![Video image](http://handledmovie.com/get/player01.gif)](https://vimeo.com/177943251)
+
