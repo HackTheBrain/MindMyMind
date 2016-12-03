@@ -75,16 +75,16 @@ The asymmetrical frontal EEG activity may reflect the valence level of emotion e
 
 The tasks in the team were divided as follows:
 
-![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.13.png)	
+![imge](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.13.png)	
 **Boris**
 Has set up the TMSi Mobita and collected data. He installed the software on his computer and did some experiences with it. Unfortunately, installing the software took a lot of time. He coded the signal processing, and this code can be found (later on) on the WIKI-page. Buffer BCI -> raw data out of the Morbita sent to a Java application (Signal Analyzer). This application analysis the signal. See architecture figure. Through a socket this information is send to the MMM webservice.
 
-![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.26.png)
+![imgage45](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.26.png)
 **Dora**
 Helped Hossein and Wendy in the research on EEG and BCI and emotion detection. Furthermore, she esigned the MMM avatar in LightWay and made a MP4 movie that could be used by Dennis.
 
 
-![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.35.png)
+![imgage3](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot_2016-07-13_01.36.35.png)
 **Dennis**
 Received data and created the real-time visualization by setting up a web service. He used HTML5 to play the video, Javascript for speeding the animation, and CSS for the color overlay. Also this code can be found (later on) on the WIKI- page.
 
