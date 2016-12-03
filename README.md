@@ -1,7 +1,7 @@
 # MindMyMind
 
 ## WHO
-MMM1.jpg
+![image](https://github.com/HackTheBrain/MindMyMind/blob/master/images/MMM1.jpg)
 
 - Boris van Schooten – Developer – Roessingh Research and Development http://www.rrd.nlwww.rrd.nl, Enschede, the Netherlands
 - Dennis Hofs - Developer – Roessingh Research and Development http://www.rrd.nl, Enschede, the Netherlands
@@ -32,7 +32,7 @@ Dominance: strength of an emotion, which is generally expressed in the EEG as an
 
 The next model was presented in “Real-Time EEG-Based Human Emotion Recognition and Visualization” in which Valence and Arrousal are presented in a 2D space http://www3.ntu.edu.sg/home/EOSourina/Papers/EmoRecVis2010.pdf
 
-MMM2.jpg
+![image](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-MMM2.jpg)
 
 In literature there are some discussion on how to divide emotions. For example:
 
@@ -45,23 +45,22 @@ Design of the prototype
 
 In our prototype, we would like to map emotions into a valence-arousal plane. Conventionally, the user is exposed to a (visual) stimuli which will lead to voltage changes in the brain. The EEG is recorded from which noise and artifacts are removed. Relevant features are selected from the resulting data based on which a classifier is trained and tested [2].
 
-MMM3.jpg
+![image](https://github.com/HackTheBrain/MindMyMind/blob/master/images/500px-MMM3.jpg)
 
 This is where it gets technical. Please describe how you made it (e.g. hardware/software used). Reference to code/patches/data can also be made through linking to github or similar. In the developed prototype, we skip the classifier training step due to time constraints. As such, we detect and visualize changes to brain activities which may imply changes to the state-of-mind of the user. The emotion-detection will be left as future work. We use 10 electrodes to detect the changes in the alpha and beta brain waves. The architecture of the HtB2016 prototype will exist of the following elements:
 
-MMM4.jpg
+![image](https://github.com/HackTheBrain/MindMyMind/blob/master/images/700px-MMM4.jpg)
 
 
 Approach and division of tasks
 
 We used the TMSi Mobita [3]as the equipment for measuring the EEG signals.
 
-Screenshot 2016-07-13 01.35.34.png
+![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot_2016-07-13_01.35.34.png)
 
 The following channels were used:
 
-
-Screenshot 2016-07-13 01.35.50.png
+![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot_2016-07-13_01.35.50.png)
 
 The electrodes that were used for Alpha and Beta wavebands are as follows:
 
@@ -76,18 +75,18 @@ The asymmetrical frontal EEG activity may reflect the valence level of emotion e
 
 The tasks in the team were divided as follows:
 
-Screenshot 2016-07-13 01.36.13.png	
-Boris
+![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.13.png)	
+**Boris**
 Has set up the TMSi Mobita and collected data. He installed the software on his computer and did some experiences with it. Unfortunately, installing the software took a lot of time. He coded the signal processing, and this code can be found (later on) on the WIKI-page. Buffer BCI -> raw data out of the Morbita sent to a Java application (Signal Analyzer). This application analysis the signal. See architecture figure. Through a socket this information is send to the MMM webservice.
 
-Screenshot 2016-07-13 01.36.26.png	
-Dora
+![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.26.png)
+**Dora**
 Helped Hossein and Wendy in the research on EEG and BCI and emotion detection. Furthermore, she esigned the MMM avatar in LightWay and made a MP4 movie that could be used by Dennis.
 
 
-Screenshot 2016-07-13 01.36.35.png	
-Dennis
+![img](https://github.com/HackTheBrain/MindMyMind/blob/master/images/400px-Screenshot 2016-07-13 01.36.35.png)
+**Dennis**
 Received data and created the real-time visualization by setting up a web service. He used HTML5 to play the video, Javascript for speeding the animation, and CSS for the color overlay. Also this code can be found (later on) on the WIKI- page.
 
-Hossein and Wendy
+**Hossein and Wendy**
 Worked on the research and documentation, and found many papers usable for this project.
